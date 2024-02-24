@@ -1,0 +1,252 @@
+// ignore_for_file: equal_keys_in_map
+
+import 'package:get/get.dart';
+
+class MyTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        "ar": {
+          // Language Page
+          "Choose Language": "اختر اللغة",
+          "Arabic": "العربية",
+          "English": "الانجليزية",
+          // OnBorading Page
+          "Choose Product": "اختر المنتج",
+          "We Have a Meny Product \n Choose Your Product From Our \n E-commerce App":
+              "لدينا الكثير من المنتجات \nاختر منتجك من تطبيق \nالتجارة الإلكترونية الخاص بنا",
+          "Easy Checkout and Safe Payment\n method. Trusted by our Coustomers \n from all over the world":
+              "طريقة سهلة للدفع والدفع الآمن\n. موثوق به من قبل عملائنا \n من جميع أنحاء العالم",
+          "Easy and Safe Payment": "دفع سهل وآمن",
+          "Track Your Order": "دفع سهل وآمن",
+          "Reliable And Fast Delivery. We\n Deliver your product the fastest \n way possible":
+              "تسليم موثوق وسريع. نحن\n نقوم بتسليم منتجك بأسرع \n طريقة ممكنة",
+          "Continue": "تابع",
+          // Login Page
+          "Sign in": "تسجيل الدخول",
+          "Welcome Back": "مرحبا بعودتك",
+          "Sign in with your email and password":
+              "قم بتسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور",
+          "Email": "البريد الالكتروني",
+          "Enter your email": "أدخل بريدك الإلكتروني",
+          "Password": "كلمة السر",
+          "Enter your password": "ادخل كلمة المرور",
+          "Forget Password": "هل نسيت كلمة المرور ؟",
+          "Sign up": "انشاء حساب",
+          "Don't have an account ? ": "ليس لديك حساب ؟",
+          "Sign Up": "انشاء حساب",
+          "Sign up with your username \n email and password":
+              "قم بالتسجيل باستخدام اسم المستخدم الخاص بك \n البريد الإلكتروني وكلمة المرور",
+          "have an account ? ": "هل لديك حساب ؟",
+          "Username": "ادخل اسم المستخدم",
+          "Enter your username": "أدخل اسم المستخدم الخاص بك",
+          "Phone": "الهاتف",
+          "Enter your phone": "أدخل هاتفك",
+          "Success": "نجاح",
+          "Account successfully created": "تم إنشاء الحساب بنجاح",
+          "Go To Login": "اذهب إلى تسجيل الدخول",
+          "Verification Code": "رمز التحقق",
+          "Check Code": "التحقق من الكود",
+          "Please Enter Digit Code Sent To": "الرجاء إدخال الكود المرسل إلى",
+          "Check with your email": "تحقق من البريد الإلكتروني الخاص بك",
+          "Check": "التحقق",
+          "Reset Password": "إعادة تعيين كلمة المرور",
+          "Please Enter new Password": "الرجاء إدخال كلمة المرور الجديدة",
+          "Re Enter your password": "أعد إدخال كلمة المرور",
+          "Save": "حفظ",
+          "Success": "تم بنجاح",
+          "The password has been reset successfully":
+              "تمت إعادة تعيين كلمة المرور بنجاح",
+// ==================================================== about ========================================================== //
+          "Contact us": "اتصل بنا",
+          "Send SMS": "أرسل رسالة  ",
+          "Facebook": "فيس بوك",
+          "whatsapp": "واتس اب",
+// ==================================================== cert ========================================================== //
+          "My Cart": "سله المشتريات",
+          "Price": "السعر",
+          "delivery": "التوصيل",
+          "Total Price": "السعر الكلي",
+          "Order": "طلب",
+// ==================================================== checkout ========================================================== //
+          "Checkout": "الدفع",
+          "Choose Payment Method": "اختر وسيلة الدفع",
+          "Payment Card": "بطاقة الدفع",
+          "Cash": "نقدي",
+          "Enter name card": "ادخل اسم البطاقة",
+          "name on cart": "اسم البطاقة",
+          "Enter card number": "ادخل رقم البطاقة",
+          "card number": "رقم البطاقة",
+          "Enter address": "قم بادخال العنوان",
+          "address": "العنوان",
+// ==================================================== CompleteCheckout ========================================================== //
+          "Payment completed successfully": "تم الدفع بنجاح",
+          "Go to home": "الصفحةالرئسية",
+// ==================================================== Favorite ========================================================== //
+          "Favorite": "المفضله",
+// ==================================================== home ========================================================== //
+          "Home": "الصفحةالرئسية",
+          "A winter suprise\n": "مفاجأت الشتاء\n",
+          "Cashback 25%": "كاش باك 25%",
+          "Categories": "الاقسام",
+          "Prodect for you": "منتجات تهمك",
+          "Items": "المنتجات",
+          "Add To Cart": "اضافه الي السلة",
+          "There are no searches": "لا توجد عمليات بحث",
+          "Disable notfacation": "تعطيل الاشعارات",
+          "Change language": "تغيير اللغه",
+          "Logout": "تسجيل الخروج",
+          "warning": "تحذير",
+          "Do you want to logout ?": "هل تريد تسجيل الخروج",
+          "home": "الرئسية",
+          "search": "البحث",
+          "setting": "الضبط",
+          "about": "حول",
+          "Rating": "تقييم",
+          "Search": "البحث",
+          "Find Your Product": "ابحث عن منتجك",
+          "Complete Checkout": "اتمام عملية الدفع",
+          "? Do you want to exit the application":
+              "هل تريد الخروج من التطبيق ؟",
+          "No": "لا",
+          "Yes": "نعم",
+          "? Do you want to logout": "هل تريد تسجيل الخروج ؟",
+          "can't be empty": "لا يمكن أن تكون فارغة",
+          "can't be less than": "لا يمكن أن يكون أقل من",
+          "can't be bigger than": "لا يمكن أن يكون أكبر من",
+          "not valid username": "اسم مستخدم غير صالح",
+          "not valid email": "بريد إلكتروني غير صالح",
+          "not valid phone": "هاتف غير صالح",
+          "VerifyCode not correct": "رمز التحقق غير صحيح",
+          "Check Email": "التحقق من البريد الالكتروني",
+          "Re Password": "اعد كتابه كلمه المرور",
+          "notifications": "اشعار",
+          "The product has been added to favorites":
+              "تمت إضافة المنتج إلى المفضلة",
+          "The product has been removed from favorites":
+              "تمت إزالة المنتج من المفضلة",
+          "Email or Password not correct":
+              "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+        },
+        "en": {
+          // Language Page
+          "Choose Language": "Choose Language",
+          "Arabic": "Arabic",
+          "English": "English",
+          // OnBorading Page
+          "Choose Product": "Choose Product",
+          "We Have a Meny Product \n Choose Your Product From Our \n E-commerce App":
+              "We Have a Mush Product \n Choose Your Product From Our \n E-commerce App",
+          "Easy Checkout and Safe Payment\n method. Trusted by our Coustomers \n from all over the world":
+              "Easy Checkout and Safe Payment\n method. Trusted by our Coustomers \n from all over the world",
+          "Easy and Safe Payment": "Easy and Safe Payment",
+          "Track Your Order": "Track Your Order",
+          "Reliable And Fast Delivery. We\n Deliver your product the fastest \n way possible":
+              "Reliable And Fast Delivery. We\n Deliver your product the fastest \n way possible",
+          "Continue": "Continue",
+          // Login Page
+          "Sign in": "Sign in",
+          "Welcome Back": "Welcome Back",
+          "Sign in with your email and password":
+              "Sign in with your email and password",
+          "Email": "Email",
+          "Enter your email": "Enter your email",
+          "Password": "Password",
+          "Enter your password": "Enter your password",
+          "Forget Password": "Forget Password",
+          "Sign in": "Sign in",
+          "Don't have an account ? ": "Don't have an account ? ",
+          "Sign up": "Sign up",
+          "Sign up with your username \n email and password":
+              "Sign up with your username \n email and password",
+          "have an account ? ": "have an account ? ",
+          "Username": "Username",
+          "Enter your username": "Enter your username",
+          "Phone": "Phone",
+          "Enter your phone": "Enter your phone",
+          "Success": "Success",
+          "Account successfully created": "Account successfully created",
+          "Go To Login": "Go To Login",
+          "Verification Code": "Verification Code",
+          "Check Code": "Check Code",
+          "Please Enter Digit Code Sent To": "Please Enter Digit Code Sent To",
+          "Check with your email": "Check with your email",
+          "Check": "Check",
+          "Reset Password": "Reset Password",
+          "Please Enter new Password": "Please Enter new Password",
+          "Re Enter your password": "Re Enter your password",
+          "Save": "Save",
+          "Success": "Success",
+          "The password has been reset successfully":
+              "The password has been reset successfully",
+// ==================================================== about ========================================================== //
+          "Contact us": "Contact us",
+          "Send SMS": "Send SMS",
+          "Facebook": "Facebook",
+          "whatsapp": "whatsapp",
+// ==================================================== cert ========================================================== //
+          "My Cart": "My Cart",
+          "Price": "Price",
+          "delivery": "delivery",
+          "Total Price": "Total Price",
+          "Order": "Order",
+// ==================================================== checkout ========================================================== //
+          "Checkout": "Checkout",
+          "Choose Payment Method": "Choose Payment Method",
+          "Payment Card": "Payment Card",
+          "Cash": "Cash",
+          "Enter name card": "Enter name card",
+          "name on cart": "name on cart",
+          "Enter card number": "Enter card number",
+          "card number": "card number",
+          "Enter address": "Enter address",
+          "address": "address",
+// ==================================================== CompleteCheckout ========================================================== //
+          "Payment completed successfully": "Payment completed successfully",
+          "Go to home": "Go to home",
+// ==================================================== Favorite ========================================================== //
+          "Favorite": "Favorite",
+// ==================================================== home ========================================================== //
+          "Home": "Home",
+          "A winter suprise\n": "A winter suprise\n",
+          "Cashback 25%": "Cashback 25%",
+          "Categories": "Categories",
+          "Prodect for you": "Prodect for you",
+          "Items": "Items",
+          "Add To Cart": "Add To Cart",
+          "There are no searches": "There are no searches",
+          "Disable notfacation": "Disable notfacation",
+          "Change language": "Change language",
+          "Logout": "Logout",
+          "warning": "warning",
+          "Do you want to logout ?": "Do you want to logout ?",
+          "home": "home",
+          "search": "search",
+          "setting": "setting",
+          "about": "about",
+          "Rating": "Rating",
+          "Search": "Search",
+          "Find Your Product": "Find Your Product",
+          "Complete Checkout": "Complete Checkout",
+          "Do you want to exit the application ?":
+              "? Do you want to exit the application",
+          "No": "No",
+          "Yes": "Yes",
+          "? Do you want to logout": "? Do you want to logout",
+          "can't be empty": "can't be empty",
+          "can't be less than": "can't be less than",
+          "can't be bigger than": "can't be bigger than",
+          "not valid username": "not valid username",
+          "not valid email": "not valid email",
+          "not valid phone": "not valid phone",
+          "VerifyCode not correct": "VerifyCode not correct",
+          "Check Email": "Check Email",
+          "Re Password": "Re Password",
+          "notifications": "notifications",
+          "The product has been added to favorites":
+              "The product has been added to favorites",
+          "The product has been removed from favorites":
+              "The product has been removed from favorites",
+          "Email or Password not correct": "Email or Password not correct",
+        }
+      };
+}
