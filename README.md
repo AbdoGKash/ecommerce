@@ -1,6 +1,15 @@
-# ecommerce
+# 🚀 Welcome to the E-commerce App repository!
 
-Ecommerce App
+ e-commerce application is designed to provide a seamless shopping experience
+ for users, offering a wide range of products and intuitive features.the app aims to
+ meet the needs buyers in the online marketplace.
+
+
+# 🌟 App demo video
+
+### [YouTube](https://youtube.com/shorts/xZomgCAuOFI?si=9PmcZcA1-OR4vqSj)
+
+# 🎨 UI
 
 ##  - Screens
 
